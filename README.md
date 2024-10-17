@@ -1,38 +1,42 @@
-## Adivinhe o Número Secreto: Um Jogo Ativado por Voz para Testar sua Sorte! 🎲🗣️
+# Jogo do Número Secreto
 
-**Prepare-se para uma experiência de jogo emocionante!**
+Este é um simples jogo de adivinhação implementado em HTML, CSS e JavaScript. O jogador tenta adivinhar um número secreto entre 1 e 10.
 
-Este repositório contém o código para um jogo simples e divertido em HTML, CSS e JavaScript, onde você precisa adivinhar um número secreto entre 1 e 10. Mas aqui está o toque especial: o jogo fala com você! 
+## Como Funciona
+1. O jogo gera um número secreto aleatório entre 1 e 10.
+2. O jogador insere um palpite no campo de entrada.
+3. Ao clicar em "Chutar", o jogo verifica se o palpite está correto.
+4. Se o palpite estiver errado, o jogo dá dicas se o número secreto é maior ou menor.
+5. O jogo conta o número de tentativas do jogador.
+6. Quando o jogador acerta, é exibida uma mensagem de parabéns com o número de tentativas.
+7. O jogador pode iniciar um novo jogo clicando em "Novo jogo".
 
-**Recursos:**
+## Características
+- Geração de números aleatórios únicos para cada jogo
+- Feedback por voz utilizando a biblioteca ResponsiveVoice
+- Interface responsiva
+- Contagem de tentativas
+- Opção de reiniciar o jogo
 
-* **Número Secreto Aleatório:** A cada nova partida, um número secreto é gerado aleatoriamente, garantindo uma experiência única a cada vez.
-* **Interface Intuitiva:** A interface amigável permite que você insira seu palpite e receba feedback instantâneo, informando se o número secreto é maior ou menor.
-* **Voz Ativada:** O jogo fornece feedback em voz alta, tornando a experiência mais envolvente e acessível. 
-* **Contagem de Tentativas:** Mantenha o controle de quantas tentativas você precisa para descobrir o número secreto.
-* **Reinício do Jogo:** Você pode facilmente reiniciar o jogo e tentar novamente! 
+## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- [ResponsiveVoice](https://responsivevoice.org/) para feedback por voz
+- Fontes do Google (Chakra Petch e Inter)
 
-**Tecnologias Utilizadas:**
+## Como Executar
+1. Clone este repositório
+2. Abra o arquivo `index.html` em seu navegador
 
-* **HTML:** Estrutura básica do jogo, incluindo interface de usuário.
-* **CSS:** Estilização e visualização da interface.
-* **JavaScript:** Lógica do jogo, geração de números aleatórios, feedback ao usuário e funcionalidade de voz.
-* **ResponsiveVoice.js:** Biblioteca JavaScript para síntese de voz, adicionando a funcionalidade de fala ao jogo.
+## Estrutura do Projeto
+- `index.html`: Estrutura da página web
+- `style.css`: Estilos da aplicação
+- `app.js`: Lógica do jogo em JavaScript
+- `img/`: Pasta contendo as imagens utilizadas
 
-**Como Jogar:**
+## Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou enviar um pull request.
 
-1. Clone este repositório.
-2. Abra o arquivo `index.html` no seu navegador.
-3. Insira um número entre 1 e 10 no campo de entrada.
-4. Clique no botão "Chutar" para verificar seu palpite.
-5. O jogo irá fornecer feedback em voz alta e na tela, indicando se você está certo ou errado.
-6. Continue a adivinhar até descobrir o número secreto!
-7. Para uma nova partida, clique no botão "Novo jogo".
-
-**Contribuições:**
-
-Sinta-se à vontade para contribuir para este projeto! Se você encontrar bugs, tiver ideias para novas funcionalidades ou quiser melhorar o código existente, abra um pull request.
-
-**Comece a jogar agora e divirta-se!** 🎮
-
-**Desenvolvido por:** Iago Headmaster
+## Autor
+Iago Headmaster
